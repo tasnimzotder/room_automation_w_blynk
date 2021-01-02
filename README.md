@@ -26,7 +26,6 @@ To view the full details, visit 👉 [hackster.io](https://www.hackster.io/)
 - [Breadboard Diagram](/resources/diagram.png)
 - [Schematic Diagram](/resources/schematic.png)
 - [PCB Diagram](/resources/pcb.png)
-- [Bill of Materials (BoM)](/resources/BoM.html)
 
 ## 📝 License
 
