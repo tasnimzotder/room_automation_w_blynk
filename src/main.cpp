@@ -4,12 +4,19 @@
 
 #include "credentials.h"
 
-Credentials cred;
+/* 
+____ file    'credentials.h' ____
 
-const char* auth = cred.auth;      // alternate -> char auth[] = "abc123"
+#define SEC_AUTH "abc123"   // auth credential from Blynk app
+#define SEC_SSID "abc123"   // wifi ssid
+#define SEC_PASS "abc123"   // wifi password
 
-const char* ssid = cred.ssid;      // alternate -> char ssid[] = "abc123"
-const char* pass = cred.pass;      // alternate -> char pass[] = "abc123"
+*/
+
+char auth[] = SEC_AUTH;      // alternate -> char auth[] = "abc123"
+
+char ssid[] = SEC_SSID;      // alternate -> char ssid[] = "abc123"
+char pass[] = SEC_PASS;      // alternate -> char pass[] = "abc123"
 
 #define dhtType DHT11
 
@@ -39,7 +46,7 @@ DHT dht(dhtPin, dhtType);
 
   * V6 - Device Stats
   * V20 - Temp
-  * V11 - Humidity
+  * V21 - Humidity
 */
 
 // LED pins on Blynk app
