@@ -1,10 +1,14 @@
+<p align="center">
+    <img width="220px" src="resources/app_ui.jpg" alt="app ui"/>
+</p>
+
 # Room Automation w/ Blynk
 
 DIY room appliances control over the cloud ☁
 
 ## Project
 
-To view the full details, visit 👉 [hackster.io](https://www.hackster.io/)
+To view the full details, visit 👉 [hackster.io](https://www.hackster.io/TasnimZotder/room-automation-w-blynk-e2d944)
 
 ## Components
 
@@ -23,9 +27,9 @@ To view the full details, visit 👉 [hackster.io](https://www.hackster.io/)
 
 ## Resources
 
-- [Breadboard Diagram](/resources/diagram.png)
-- [Schematic Diagram](/resources/schematic.png)
-- [PCB Diagram](/resources/pcb.png)
+- [Breadboard Diagram](/resources/project_bb.pdf)
+- [Schematic Diagram](/resources/project_schem.pdf)
+- [PCB Diagram](/resources/project_pcb.pdf)
 
 ## 📝 License
 
