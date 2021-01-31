@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="220px" src="resources/app_ui.jpg" alt="app ui"/>
+    <img width="256px" src="resources/app_ui.jpg" alt="app ui"/>
 </p>
 
 # Room Automation w/ Blynk
@@ -34,3 +34,5 @@ To view the full details, visit 👉 [hackster.io](https://www.hackster.io/Tasni
 ## 📝 License
 
 This project is licensed under the [MIT License](/LICENSE)
+
+

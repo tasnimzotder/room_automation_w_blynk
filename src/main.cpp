@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @brief DIY room appliances control over the cloud
+ * @license MIT
+ * @since 2021
+ * @author Tasnim Zotder
+ * @see https://github.com/tasnimzotder/room_automation_w_blynk
+*/
+
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
 #include <ESP8266WiFi.h>
@@ -5,18 +14,18 @@
 #include "credentials.h"
 
 /* 
-____ file    'credentials.h' ____
+____ file    'src/credentials.h' ____
 
-#define SEC_AUTH "abc123"   // auth credential from Blynk app
+#define SEC_AUTH "abc123"   // auth credential for Blynk project
 #define SEC_SSID "abc123"   // wifi ssid
 #define SEC_PASS "abc123"   // wifi password
 
 */
 
-char auth[] = SEC_AUTH;      // alternate -> char auth[] = "abc123"
+char auth[] = SEC_AUTH;      // alternative -> char auth[] = "abc123"
 
-char ssid[] = SEC_SSID;      // alternate -> char ssid[] = "abc123"
-char pass[] = SEC_PASS;      // alternate -> char pass[] = "abc123"
+char ssid[] = SEC_SSID;      // alternative -> char ssid[] = "abc123"
+char pass[] = SEC_PASS;      // alternative -> char pass[] = "abc123"
 
 #define dhtType DHT11
 
